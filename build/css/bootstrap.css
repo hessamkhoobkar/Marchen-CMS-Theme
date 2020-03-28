@@ -9882,7 +9882,7 @@ h3 {
   left: 0;
   width: 240px;
   background-color: #FFFFFF;
-  padding: 1rem;
+  padding: 0.5rem;
   box-shadow: 0 0.125rem 0.25rem rgba(9, 30, 66, 0.075);
   overflow-y: auto;
 }

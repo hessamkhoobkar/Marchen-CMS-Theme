@@ -5,18 +5,18 @@
     left: 0;
     width: 240px;
     background-color: $white;
-    padding: $spacer;
+    padding: $spacer-small;
     box-shadow: $box-shadow-sm;
     overflow-y: auto;
 
     &-footer {
         position: absolute;
-        bottom: $spacer / 2;
-        left: $spacer / 2;
-        right: $spacer / 2;
+        bottom: $spacer-small;
+        left: $spacer-small;
+        right: $spacer-small;
         height: $spacer * 4;
         background-color: $gray-200;
-        padding: $spacer / 2;
+        padding: $spacer-small;
         border-radius: $border-radius;
         border: 1px solid $gray-300;
     }

@@ -142,6 +142,11 @@ $sizes: map-merge((25: 25%,
     auto: auto),
   $sizes);
 
+// Custom spacing variables 
+$spacer-small: $spacer * .5;
+$spacer-meduim: $spacer;
+$spacer-large: $spacer * 2;
+
 
 // Body
 //
