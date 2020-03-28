@@ -14,24 +14,101 @@
 
     <div role="sidebar" class="sidebar">
         <nav class="sidenav">
-            <div class="sidenav-menu">
-                <div class="accordion" id="accordionExample">
-                    <button type="button" class="btn btn-primary btn-block" data-toggle="collapse"
-                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Block level button
+
+            <div class="sidebar-header">
+                <p>Marchen CMS</p>
+            </div>
+
+            <div class="sidebar-body sidenav-menu">
+                <div class="accordion" id="sidenav-accordion">
+
+                    <button type="button" class="btn btn-sidenav btn-primary" data-toggle="collapse"
+                        data-target="#dashboards" aria-expanded="true" aria-controls="dashboards">
+                        <span>
+                            Dashboards
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-chevron-right">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
                     </button>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                        data-parent="#accordionExample">
-                        <ul class="list-group">
-                            <li class="list-group-item">Text</li>
-                            <li class="list-group-item" aria-disabled="true">Disabled item</li>
+                    <div id="dashboards" class="collapse collapse-content show" aria-labelledby="headingOne"
+                        data-parent="#sidenav-accordion">
+                        <ul class="">
+                            <li class="">Text</li>
+                            <li class="">Disabled item</li>
                         </ul>
                     </div>
-                    <button type="button" class="btn btn-primary btn-block" data-toggle="collapse"
-                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Block level button
+
+                    <button type="button" class="btn btn-sidenav" data-toggle="collapse" data-target="#components"
+                        aria-expanded="false" aria-controls="components">
+                        <span>
+                            Components
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-chevron-right">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
                     </button>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div id="components" class="collapse collapse-content" aria-labelledby="headingOne"
+                        data-parent="#sidenav-accordion">
+                        <nav class="sidenav-nested">
+
+                            <a class="btn btn-sidenav" href="alerts.html">
+                                Alerts
+                            </a>
+                            <a class="btn btn-sidenav" href="avatars.html">
+                                Avatars
+                                <span class="badge badge-primary ml-2">New!</span>
+                            </a>
+                            <a class="btn btn-sidenav" href="badges.html">
+                                Badges
+                            </a>
+                            <a class="btn btn-sidenav" href="buttons.html">
+                                Buttons
+                            </a>
+                            <a class="btn btn-sidenav" href="cards.html">
+                                Cards
+                            </a>
+                            <a class="btn btn-sidenav" href="dropdowns.html">
+                                Dropdowns
+                            </a>
+                            <a class="btn btn-sidenav" href="forms.html">
+                                Forms
+                            </a>
+                            <a class="btn btn-sidenav" href="modals.html">
+                                Modals
+                            </a>
+                            <a class="btn btn-sidenav" href="navigation.html">
+                                Navigation
+                            </a>
+                            <a class="btn btn-sidenav" href="progress.html">
+                                Progress
+                            </a>
+                            <a class="btn btn-sidenav" href="toasts.html">
+                                Toasts
+                            </a>
+                            <a class="btn btn-sidenav" href="tooltips.html">
+                                Tooltips
+                            </a>
+                        </nav>
+                    </div>
+
+                    <button type="button" class="btn btn-sidenav" data-toggle="collapse" data-target="#pages"
+                        aria-expanded="false" aria-controls="pages">
+                        <span>
+                            Pages
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-chevron-right">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                    <div id="pages" class="collapse collapse-content" aria-labelledby="headingOne"
+                        data-parent="#sidenav-accordion">
                         <ul class="list-group">
                             <li class="list-group-item">Text</li>
                             <li class="list-group-item" aria-disabled="false">Disabled item</li>
@@ -48,7 +125,6 @@
             </div>
         </nav>
     </div>
-
 
     <main role="main" class="main">
         <div class="container-fluid">

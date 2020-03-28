@@ -9,15 +9,36 @@
     box-shadow: $box-shadow-sm;
     overflow-y: auto;
 
+    &-header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: $spacer-2xlarge;
+        background-color: $gray-100;
+        padding: $spacer-small;
+    }
+
+    &-body {
+        margin-top: $spacer-2xlarge;
+    }
+
     &-footer {
         position: absolute;
         bottom: $spacer-small;
         left: $spacer-small;
         right: $spacer-small;
-        height: $spacer * 4;
+        height: $spacer-2xlarge;
         background-color: $gray-200;
         padding: $spacer-small;
         border-radius: $border-radius;
         border: 1px solid $gray-300;
+    }
+
+    .collapse-content {
+        margin-top: $spacer-small;
+        margin-left: $spacer;
+        padding-left: $spacer;
+        border-left: 1px solid $gray-300;
     }
 }

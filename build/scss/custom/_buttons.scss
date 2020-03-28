@@ -1,0 +1,27 @@
+.btn-sidenav {
+    text-align: initial;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: $spacer-small;
+
+    svg {
+        color: $gray-600;
+    }
+
+    &:hover {
+        color: $primary;
+        background-color: $gray-200;
+
+        svg {
+            color: $primary;
+        }
+    }
+
+    .sidenav-nested & {
+        margin-top: $spacer-2xsmall;
+    }
+}
