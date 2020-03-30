@@ -1,0 +1,102 @@
+.posts-table {
+  width: 100%;
+  color: $table-color;
+  background-color: $table-bg;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  svg {
+    vertical-align: text-top;
+  }
+
+  th,
+  td {
+    padding: $table-cell-padding * 2;
+    vertical-align: middle;
+    border-top: $table-border-width solid $table-border-color;
+  }
+
+  thead th {
+    vertical-align: bottom;
+    border-top: 0;
+    background-color: $gray-100;
+    color: $gray-500;
+    padding: $table-cell-padding $table-cell-padding * 2;
+    font-size: 0.8rem;
+  }
+
+  &:hover {
+    tbody tr {
+      @include hover() {
+        color: $table-hover-color;
+        background-color: $gray-200;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  table.posts-table {
+    display: block;
+
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+      display: block;
+    }
+
+    tbody tr {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: center;
+
+      td:first-child {
+        width: 100%;
+        padding-bottom: $spacer-small;
+      }
+      td:not(:first-child) {
+        flex-grow: 1;
+        border-top: 0;
+        padding: $spacer 0;
+      }
+    }
+
+    thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+  }
+}
+/*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+
+/* Hide table headers (but not display: none;, for accessibility) */
+
+//   tr {
+//     margin: 0 0 1rem 0;
+//   }
+
+//   td {
+//     /* Behave  like a "row" */
+//     border: none;
+//     border-bottom: 1px solid #eee;
+//     position: relative;
+//     padding-left: 50%;
+//   }
+
+//   td:before {
+//     /* Now like a table header */
+//     position: absolute;
+//     /* Top/left values mimic padding */
+//     top: 0;
+//     left: 6px;
+//     width: 45%;
+//     padding-right: 10px;
+//     white-space: nowrap;
+//   }

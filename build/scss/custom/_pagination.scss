@@ -1,0 +1,44 @@
+.pagination {
+    .page-item {
+        margin-right: $spacer / 4;
+        margin-left: $spacer / 4;
+        box-shadow: $box-shadow-sm;
+
+        .page-link {
+            border-radius: $border-radius;
+        }
+
+        &:first-child {
+            margin-right: auto; // margin-inline-end
+        }
+
+        &:last-child {
+            margin-left: auto; // margin-inline-start
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .pagination {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .page-item {
+            order: 10;
+            margin-bottom: $spacer-small;
+
+            &:first-child {
+                order: 1;
+                width: 48%;
+                margin-bottom: $spacer-small;
+            }
+
+            &:last-child {
+                order: 2;
+                width: 48%;
+                margin-bottom: $spacer-small;
+            }
+        }
+    }
+}

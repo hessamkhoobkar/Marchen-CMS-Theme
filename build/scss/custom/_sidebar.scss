@@ -1,44 +1,80 @@
 .sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  width: 240px;
+  background-color: $white;
+  box-shadow: $box-shadow-sm;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  @media (min-width: 1025px) {
     left: 0;
-    width: 240px;
-    background-color: $white;
-    padding: $spacer-small;
-    box-shadow: $box-shadow-sm;
+  }
+
+  &-header {
+    background-color: $gray-100;
+    padding: $spacer-small $spacer;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    svg {
+      color: $gray-900;
+      margin-right: $spacer-small;
+    }
+
+    p {
+      margin: 0;
+      margin-top: $spacer-small;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+  }
+
+  &-body {
+    flex-grow: 1;
     overflow-y: auto;
+    padding: $spacer-small;
+  }
 
-    &-header {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: $spacer-2xlarge;
-        background-color: $gray-100;
-        padding: $spacer-small;
-    }
+  &-footer {
+    background-color: $gray-200;
+    padding: 0;
+    border-top: 1px solid $gray-300;
+  }
 
-    &-body {
-        margin-top: $spacer-2xlarge;
-    }
+  .collapse-content {
+    margin-top: $spacer-small;
+    margin-left: $spacer-small;
+    padding-left: $spacer-small;
+    border-left: 2px solid $gray-300;
+  }
+}
 
-    &-footer {
-        position: absolute;
-        bottom: $spacer-small;
-        left: $spacer-small;
-        right: $spacer-small;
-        height: $spacer-2xlarge;
-        background-color: $gray-200;
-        padding: $spacer-small;
-        border-radius: $border-radius;
-        border: 1px solid $gray-300;
-    }
+.active-user {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: $spacer-small;
+  cursor: pointer;
 
-    .collapse-content {
-        margin-top: $spacer-small;
-        margin-left: $spacer;
-        padding-left: $spacer;
-        border-left: 1px solid $gray-300;
-    }
+  &:hover {
+    background-color: $gray-300;
+  }
+
+  .avatar {
+    width: $spacer-large;
+    height: $spacer-large;
+    border-radius: 50%;
+    border: 1px solid $gray-300;
+    margin-inline-end: $spacer;
+  }
 }
