@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marchen CMS</title>
 
-    <link rel="stylesheet" href="../build/css/bootstrap.css">
+    <link rel="stylesheet" href="../../build/css/bootstrap.css">
 
 </head>
 
@@ -40,7 +40,7 @@
             <nav class="sidenav">
                 <div class="accordion" id="sidenav-accordion">
 
-                    <button type="button" class="btn btn-sidenav data-toggle=" collapse" data-target="#dashboards"
+                    <button type="button" class="btn btn-sidenav" data-toggle="collapse" data-target="#dashboards"
                         aria-expanded="false" aria-controls="dashboards">
                         <span>
                             Dashboards
@@ -53,10 +53,16 @@
                     </button>
                     <div id="dashboards" class="collapse collapse-content" aria-labelledby="headingOne"
                         data-parent="#sidenav-accordion">
-                        <ul class="">
-                            <li class="">Text</li>
-                            <li class="">Disabled item</li>
-                        </ul>
+                        <nav class="sidenav-nested">
+
+                            <a class="btn btn-sidenav" href="../../index.html">
+                                Analytics
+                            </a>
+                            <a class="btn btn-sidenav" href="../dashboard/editorial.html">
+                                Editorial
+                            </a>
+
+                        </nav>
                     </div>
 
                     <button type="button" class="btn btn-sidenav" data-toggle="collapse" data-target="#components"
@@ -74,41 +80,37 @@
                         data-parent="#sidenav-accordion">
                         <nav class="sidenav-nested">
 
-                            <a class="btn btn-sidenav" href="alerts.html">
+                            <a class="btn btn-sidenav" href="../components/alerts.html">
                                 Alerts
                             </a>
-                            <a class="btn btn-sidenav" href="avatars.html">
-                                Avatars
-                                <span class="badge badge-primary ml-2">New!</span>
-                            </a>
-                            <a class="btn btn-sidenav" href="badges.html">
+                            <a class="btn btn-sidenav" href="../components/badges.html">
                                 Badges
                             </a>
-                            <a class="btn btn-sidenav" href="buttons.html">
+                            <a class="btn btn-sidenav" href="../components/buttons.html">
                                 Buttons
                             </a>
-                            <a class="btn btn-sidenav" href="cards.html">
+                            <a class="btn btn-sidenav" href="../components/cards.html">
                                 Cards
                             </a>
-                            <a class="btn btn-sidenav" href="dropdowns.html">
+                            <a class="btn btn-sidenav" href="../components/dropdowns.html">
                                 Dropdowns
                             </a>
-                            <a class="btn btn-sidenav" href="forms.html">
+                            <a class="btn btn-sidenav" href="../components/forms.html">
                                 Forms
                             </a>
-                            <a class="btn btn-sidenav" href="modals.html">
+                            <a class="btn btn-sidenav" href="../components/modals.html">
                                 Modals
                             </a>
-                            <a class="btn btn-sidenav" href="navigation.html">
+                            <a class="btn btn-sidenav" href="../components/navigation.html">
                                 Navigation
                             </a>
-                            <a class="btn btn-sidenav" href="progress.html">
+                            <a class="btn btn-sidenav" href="../components/progress.html">
                                 Progress
                             </a>
-                            <a class="btn btn-sidenav" href="toasts.html">
+                            <a class="btn btn-sidenav" href="../components/toasts.html">
                                 Toasts
                             </a>
-                            <a class="btn btn-sidenav" href="tooltips.html">
+                            <a class="btn btn-sidenav" href="../components/tooltips.html">
                                 Tooltips
                             </a>
                         </nav>
@@ -127,16 +129,22 @@
                     </button>
                     <div id="pages" class="collapse collapse-content" aria-labelledby="headingOne"
                         data-parent="#sidenav-accordion">
-                        <ul class="list-group">
-                            <li class="list-group-item">Text</li>
-                            <li class="list-group-item" aria-disabled="false">Disabled item</li>
-                        </ul>
+                        <nav class="sidenav-nested">
+
+                            <a class="btn btn-sidenav" href="../pages/404-error.html">
+                                404 Error
+                            </a>
+                            <a class="btn btn-sidenav" href="../pages/500-error.html">
+                                500 Error
+                            </a>
+
+                        </nav>
                     </div>
 
                     <button type="button" class="btn btn-sidenav" data-toggle="collapse" data-target="#users"
                         aria-expanded="false" aria-controls="users">
                         <span>
-                            users
+                            Users
                         </span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
@@ -148,43 +156,50 @@
                         data-parent="#sidenav-accordion">
                         <nav class="sidenav-nested">
 
-                            <a class="btn btn-sidenav" href="alerts.html">
-                                users Lists
+                            <a class="btn btn-sidenav" href="../users/users-list.html">
+                                Users List
                             </a>
-                            <a class="btn btn-sidenav" href="avatars.html">
-                                Avatars
-                                <span class="badge badge-primary ml-2">New!</span>
+                            <a class="btn btn-sidenav" href="../users/add-user.html">
+                                Add User
                             </a>
-                            <a class="btn btn-sidenav" href="badges.html">
-                                Badges
+                            <a class="btn btn-sidenav" href="../users/edit-user.html">
+                                Edit User
                             </a>
-                            <a class="btn btn-sidenav" href="buttons.html">
-                                Buttons
+
+                        </nav>
+                    </div>
+
+                    <button type="button" class="btn btn-sidenav" data-toggle="collapse" data-target="#profile"
+                        aria-expanded="false" aria-controls="profile">
+                        <span>
+                            Profile
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-chevron-right">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                    <div id="profile" class="collapse collapse-content" aria-labelledby="headingOne"
+                        data-parent="#sidenav-accordion">
+                        <nav class="sidenav-nested">
+
+                            <a class="btn btn-sidenav" href="../profile/overview.html">
+                                Overview
                             </a>
-                            <a class="btn btn-sidenav" href="cards.html">
-                                Cards
+                            <a class="btn btn-sidenav" href="../profile/personal-information.html">
+                                Personal Information
                             </a>
-                            <a class="btn btn-sidenav" href="dropdowns.html">
-                                Dropdowns
+                            <a class="btn btn-sidenav" href="../profile/account-settings.html">
+                                Account Settings
                             </a>
-                            <a class="btn btn-sidenav" href="forms.html">
-                                Forms
+                            <a class="btn btn-sidenav" href="../profile/change-password.html">
+                                Change Password
                             </a>
-                            <a class="btn btn-sidenav" href="modals.html">
-                                Modals
+                            <a class="btn btn-sidenav" href="../profile/user-settings.html">
+                                User Settings
                             </a>
-                            <a class="btn btn-sidenav" href="navigation.html">
-                                Navigation
-                            </a>
-                            <a class="btn btn-sidenav" href="progress.html">
-                                Progress
-                            </a>
-                            <a class="btn btn-sidenav" href="toasts.html">
-                                Toasts
-                            </a>
-                            <a class="btn btn-sidenav" href="tooltips.html">
-                                Tooltips
-                            </a>
+
                         </nav>
                     </div>
 
@@ -202,7 +217,7 @@
                     <div id="posts" class="collapse collapse-content show" aria-labelledby="headingOne"
                         data-parent="#sidenav-accordion">
                         <nav class="sidenav-nested">
-                            <a class="btn btn-sidenav current" href="./pages/posts-list.html">
+                            <a class="btn btn-sidenav current" href="./posts-list.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="feather feather-list">
@@ -216,7 +231,7 @@
                                 Posts list
                                 <span class="sr-only current"></span>
                             </a>
-                            <a class="btn btn-sidenav" href="avatars.html">
+                            <a class="btn btn-sidenav" href="./posts-grid.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="feather feather-grid">
@@ -227,7 +242,7 @@
                                 </svg>
                                 Posts grid
                             </a>
-                            <a class="btn btn-sidenav" href="badges.html">
+                            <a class="btn btn-sidenav" href="./add-post.html">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -239,7 +254,7 @@
                                 </svg>
                                 Add Post
                             </a>
-                            <a class="btn btn-sidenav" href="buttons.html">
+                            <a class="btn btn-sidenav" href="./edit-post.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="feather feather-edit-3">
@@ -262,9 +277,30 @@
                     <button class="btn btn-link" type="button">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-search">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+
+                    <button class="btn btn-link" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="feather feather-bell">
                             <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
                             <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                        </svg>
+                    </button>
+
+                    <button class="btn btn-link" type="button">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-calendar">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
                         </svg>
                     </button>
 
@@ -279,14 +315,7 @@
                         </svg>
                     </button>
 
-                    <button class="btn btn-link" type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="feather feather-search">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                        </svg>
-                    </button>
+
                 </div>
                 <div class="active-user">
                     <img class="avatar"
@@ -802,11 +831,9 @@
         </div>
     </main>
 
-    <script src="../build/js/jquery-3.4.1.min.js"></script>
-    <script src="../build/js/bootstrap.bundle.min.js"></script>
-    <script src="../build/js/script.js"></script>
+    <script src="../../build/js/jquery-3.4.1.min.js"></script>
+    <script src="../../build/js/bootstrap.bundle.min.js"></script>
+    <script src="../../build/js/script.js"></script>
 </body>
 
 </html>
-
-<!-- <a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by freepik - www.freepik.com</a> -->
