@@ -229,7 +229,7 @@
                                     <line x1="3" y1="18" x2="3.01" y2="18"></line>
                                 </svg>
                                 Posts list
-                                <span class="sr-only current"></span>
+                                <span class="sr-only">current</span>
                             </a>
                             <a class="btn btn-sidenav" href="./posts-grid.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
@@ -329,40 +329,45 @@
     </div>
 
     <main role="main" class="main">
-        <div class="container-fluid">
-
-            <section class="main-header d-flex align-items-center flex-wrap mb-3">
-                <h1 class="flex-grow-1 order-1">Posts</h1>
-                <div class="btn-group custom mr-md-3 order-3 order-md-2" role="group" aria-label="data table actions">
-                    <button class="btn" type="button">
-                        All posts
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="feather feather-chevron-down d-none d-md-inline">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <button class="btn" type="button">
-                        All autors
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="feather feather-chevron-down d-none d-md-inline">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <button class="btn" type="button">
-                        Sort by: Newest
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="feather feather-chevron-down d-none d-md-inline">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
+        <section class="main-header light">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center flex-wrap">
+                    <h1 class="flex-grow-1 order-1">Posts</h1>
+                    <div class="btn-group custom mr-md-3 order-3 order-md-2" role="group"
+                        aria-label="data table actions">
+                        <button class="btn" type="button">
+                            All posts
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-down d-none d-md-inline">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <button class="btn" type="button">
+                            All autors
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-down d-none d-md-inline">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <button class="btn" type="button">
+                            Sort by: Newest
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-down d-none d-md-inline">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                    <button class="btn btn-primary order-2 order-md-3" type="button">New Post</button>
                 </div>
-                <button class="btn btn-primary order-2 order-md-3" type="button">New Post</button>
-            </section>
+            </div>
+        </section>
 
-            <section class="main-body">
+        <section class="main-body">
+            <div class="container-fluid">
+
                 <div class="card mb-5">
                     <div class="card-body p-0">
                         <table class="posts-table">
@@ -827,7 +832,8 @@
                         </li>
                     </ul>
                 </nav>
-            </section>
+            </div>
+        </section>
         </div>
     </main>
 

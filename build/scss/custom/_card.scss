@@ -2,6 +2,11 @@
 
     box-shadow: $box-shadow-sm;
 
+    &-body {
+
+        padding: $spacer;
+    }
+
     &-media {
 
         &.is-horizontal {
@@ -11,4 +16,20 @@
         }
     }
 
+}
+
+.ql {
+    &-toolbar {
+        border-top-right-radius: 0.25rem;
+        border-top-left-radius: 0.25rem;
+    }
+
+    &-container {
+        border-bottom-right-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+    }
+
+    &-editor {
+        min-height: 350px;
+    }
 }

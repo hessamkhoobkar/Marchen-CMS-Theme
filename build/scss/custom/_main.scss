@@ -1,12 +1,75 @@
 .main {
-  width: 100%;
-  margin-left: auto;
-  padding-top: $spacer;
-  padding-bottom: $spacer;
+    width: 100%;
+    margin-left: auto;
+    padding-bottom: $spacer;
+
+    &-header {
+        padding-top: $spacer-large;
+        padding-bottom: $spacer-large * 3;
+    }
+
+    &-header.primary {
+        background-color: $primary;
+        color: $white;
+    }
+
+    &-header.light {
+        background-color: $gray-200;
+        color: $black;
+    }
+
+    &-body {
+        margin-top: -$spacer-large * 2;
+    }
 }
 
 @media (min-width: 1025px) {
-  .main {
-    width: calc(100% - 240px);
-  }
+    .main {
+        width: calc(100% - 240px);
+    }
+}
+
+.media-upload-wrapper {
+    background-image: url(../../assets/imgs/mediaUpload.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.9;
+        background-color: $gray-100;
+    }
+
+    .form-control-file {
+        padding: $spacer * 4;
+        opacity: 0;
+        cursor: pointer;
+    }
+}
+
+#categories {
+
+    .custom-checkbox {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+
+        &:first-of-type {
+            padding-top: 0;
+        }
+
+        &:last-of-type {
+            padding-bottom: 1rem;
+        }
+
+        label {
+            cursor: pointer;
+            display: block;
+        }
+
+        [type="checkbox"] {
+            cursor: pointer;
+        }
+    }
+
 }
