@@ -10304,133 +10304,428 @@ table.posts-table tr {
 
 @keyframes glitch-animation-1 {
   0% {
-    clip: rect(95px, 350px, 150px, 0.25rem);
+    clip: rect(68px, 350px, 133px, 0.25rem);
   }
   5% {
-    clip: rect(88px, 350px, 37px, 0.25rem);
+    clip: rect(57px, 350px, 114px, 0.25rem);
   }
   10% {
-    clip: rect(125px, 350px, 5px, 0.25rem);
+    clip: rect(94px, 350px, 87px, 0.25rem);
   }
   15% {
-    clip: rect(7px, 350px, 75px, 0.25rem);
+    clip: rect(81px, 350px, 24px, 0.25rem);
   }
   20% {
-    clip: rect(77px, 350px, 120px, 0.25rem);
+    clip: rect(103px, 350px, 122px, 0.25rem);
   }
   25% {
-    clip: rect(54px, 350px, 28px, 0.25rem);
+    clip: rect(5px, 350px, 26px, 0.25rem);
   }
   30% {
-    clip: rect(14px, 350px, 20px, 0.25rem);
+    clip: rect(36px, 350px, 104px, 0.25rem);
   }
   35% {
-    clip: rect(121px, 350px, 134px, 0.25rem);
+    clip: rect(116px, 350px, 7px, 0.25rem);
   }
   40% {
-    clip: rect(19px, 350px, 47px, 0.25rem);
+    clip: rect(34px, 350px, 91px, 0.25rem);
   }
   45% {
-    clip: rect(121px, 350px, 128px, 0.25rem);
+    clip: rect(69px, 350px, 75px, 0.25rem);
   }
   50% {
-    clip: rect(26px, 350px, 142px, 0.25rem);
+    clip: rect(112px, 350px, 11px, 0.25rem);
   }
   55% {
-    clip: rect(93px, 350px, 25px, 0.25rem);
+    clip: rect(100px, 350px, 3px, 0.25rem);
   }
   60% {
-    clip: rect(101px, 350px, 51px, 0.25rem);
+    clip: rect(26px, 350px, 122px, 0.25rem);
   }
   65% {
-    clip: rect(94px, 350px, 85px, 0.25rem);
+    clip: rect(52px, 350px, 112px, 0.25rem);
   }
   70% {
-    clip: rect(95px, 350px, 54px, 0.25rem);
+    clip: rect(43px, 350px, 41px, 0.25rem);
   }
   75% {
-    clip: rect(92px, 350px, 63px, 0.25rem);
+    clip: rect(11px, 350px, 26px, 0.25rem);
   }
   80% {
-    clip: rect(50px, 350px, 122px, 0.25rem);
+    clip: rect(85px, 350px, 30px, 0.25rem);
   }
   85% {
-    clip: rect(28px, 350px, 72px, 0.25rem);
+    clip: rect(137px, 350px, 30px, 0.25rem);
   }
   90% {
-    clip: rect(68px, 350px, 139px, 0.25rem);
+    clip: rect(150px, 350px, 96px, 0.25rem);
   }
   95% {
-    clip: rect(63px, 350px, 67px, 0.25rem);
+    clip: rect(109px, 350px, 148px, 0.25rem);
   }
   100% {
-    clip: rect(109px, 350px, 81px, 0.25rem);
+    clip: rect(106px, 350px, 146px, 0.25rem);
   }
 }
 @keyframes glitch-animation-2 {
   0% {
-    clip: rect(131px, 350px, 137px, 0.25rem);
+    clip: rect(30px, 350px, 128px, 0.25rem);
   }
   5% {
-    clip: rect(136px, 350px, 38px, 0.25rem);
+    clip: rect(150px, 350px, 136px, 0.25rem);
   }
   10% {
-    clip: rect(131px, 350px, 115px, 0.25rem);
+    clip: rect(119px, 350px, 60px, 0.25rem);
   }
   15% {
-    clip: rect(99px, 350px, 86px, 0.25rem);
+    clip: rect(106px, 350px, 42px, 0.25rem);
   }
   20% {
-    clip: rect(101px, 350px, 73px, 0.25rem);
+    clip: rect(2px, 350px, 132px, 0.25rem);
   }
   25% {
-    clip: rect(112px, 350px, 2px, 0.25rem);
+    clip: rect(100px, 350px, 100px, 0.25rem);
   }
   30% {
-    clip: rect(62px, 350px, 9px, 0.25rem);
+    clip: rect(15px, 350px, 45px, 0.25rem);
   }
   35% {
-    clip: rect(125px, 350px, 74px, 0.25rem);
+    clip: rect(52px, 350px, 98px, 0.25rem);
   }
   40% {
-    clip: rect(70px, 350px, 92px, 0.25rem);
+    clip: rect(75px, 350px, 44px, 0.25rem);
   }
   45% {
-    clip: rect(54px, 350px, 107px, 0.25rem);
+    clip: rect(105px, 350px, 149px, 0.25rem);
   }
   50% {
-    clip: rect(80px, 350px, 12px, 0.25rem);
+    clip: rect(95px, 350px, 128px, 0.25rem);
   }
   55% {
-    clip: rect(150px, 350px, 111px, 0.25rem);
+    clip: rect(23px, 350px, 141px, 0.25rem);
   }
   60% {
-    clip: rect(47px, 350px, 112px, 0.25rem);
+    clip: rect(54px, 350px, 64px, 0.25rem);
   }
   65% {
-    clip: rect(15px, 350px, 146px, 0.25rem);
+    clip: rect(112px, 350px, 16px, 0.25rem);
   }
   70% {
-    clip: rect(96px, 350px, 57px, 0.25rem);
+    clip: rect(28px, 350px, 122px, 0.25rem);
   }
   75% {
-    clip: rect(16px, 350px, 4px, 0.25rem);
+    clip: rect(56px, 350px, 10px, 0.25rem);
   }
   80% {
-    clip: rect(142px, 350px, 149px, 0.25rem);
+    clip: rect(110px, 350px, 61px, 0.25rem);
   }
   85% {
-    clip: rect(74px, 350px, 95px, 0.25rem);
+    clip: rect(75px, 350px, 54px, 0.25rem);
   }
   90% {
-    clip: rect(51px, 350px, 40px, 0.25rem);
+    clip: rect(13px, 350px, 38px, 0.25rem);
   }
   95% {
-    clip: rect(90px, 350px, 89px, 0.25rem);
+    clip: rect(103px, 350px, 121px, 0.25rem);
   }
   100% {
-    clip: rect(105px, 350px, 40px, 0.25rem);
+    clip: rect(72px, 350px, 16px, 0.25rem);
   }
+}
+.offcanvas_panel {
+  z-index: 1414;
+  background-color: #ffffff;
+  box-shadow: 0 1rem 3rem rgba(9, 30, 66, 0.175);
+  position: fixed;
+  width: 20%;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  transition: all 0.4s cubic-bezier(0.39, 0.91, 0.55, 0.96);
+}
+.offcanvas_panel.show {
+  left: 0;
+}
+.offcanvas_panel_header {
+  background-color: #f4f5f7;
+  border-bottom: 1px solid #ebecf0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.offcanvas_panel_header .btn {
+  border-radius: 0;
+  border-right: 1px solid #ebecf0;
+}
+.offcanvas_panel_title {
+  padding-left: 1rem;
+}
+.offcanvas_panel_body {
+  font-size: 0.8rem;
+  padding: 1rem;
+}
+
+.schedule_panel .card {
+  transition: all 0.2s ease-out;
+}
+.schedule_panel .border-danger:hover {
+  background-color: rgba(191, 38, 0, 0.1);
+}
+.schedule_panel .border-info {
+  background-color: rgba(0, 141, 166, 0.05);
+}
+.schedule_panel .border-info:hover {
+  background-color: rgba(0, 141, 166, 0.1);
+}
+.schedule_panel .card.bg-primary:hover {
+  background-color: #05613f !important;
+}
+
+.custom-switch {
+  padding-left: 0 !important;
+}
+
+.custom-switch .custom-switch-input + .custom-switch-btn {
+  padding: 3px !important;
+}
+
+.search_panel .card {
+  transition: all 0.2s ease-out;
+}
+.search_panel .card:hover {
+  background-color: rgba(0, 141, 166, 0.2) !important;
+}
+
+.custom-switch {
+  line-height: 12px;
+}
+.custom-switch .custom-switch-input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.custom-switch .custom-switch-input, .custom-switch .custom-switch-input:after, .custom-switch .custom-switch-input:before, .custom-switch .custom-switch-input *, .custom-switch .custom-switch-input *:after, .custom-switch .custom-switch-input *:before, .custom-switch .custom-switch-input + .custom-switch-btn {
+  box-sizing: border-box;
+}
+.custom-switch .custom-switch-input:selection, .custom-switch .custom-switch-input:after:selection, .custom-switch .custom-switch-input:before:selection, .custom-switch .custom-switch-input *:selection, .custom-switch .custom-switch-input *:after:selection, .custom-switch .custom-switch-input *:before:selection, .custom-switch .custom-switch-input + .custom-switch-btn:selection {
+  background: none;
+}
+.custom-switch .custom-switch-input + .custom-switch-btn {
+  outline: 0;
+  display: inline-block;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  width: 40px;
+  height: 24px;
+  margin: 0;
+  padding: 2px;
+  background: #97a0af;
+  border-radius: 48px;
+  transition: all 150ms ease;
+}
+.custom-switch .custom-switch-input + .custom-switch-btn:after, .custom-switch .custom-switch-input + .custom-switch-btn:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 18px;
+  height: 18px;
+}
+.custom-switch .custom-switch-input + .custom-switch-btn:after {
+  left: 0px;
+  border-radius: 50%;
+  background: white;
+  transition: all 150ms ease;
+}
+.custom-switch .custom-switch-input + .custom-switch-btn:before {
+  display: none;
+}
+.custom-switch .custom-switch-input + .custom-switch-btn.text-hide {
+  top: -0.8rem;
+}
+.custom-switch .custom-switch-input:checked + .custom-switch-btn {
+  background: #06794f;
+}
+.custom-switch .custom-switch-input:checked + .custom-switch-btn:after {
+  left: 16px;
+}
+.custom-switch .custom-switch-input:checked + .custom-switch-btn ~ .custom-switch-content-checked {
+  opacity: 1;
+  height: auto;
+}
+.custom-switch .custom-switch-input:checked + .custom-switch-btn ~ .custom-switch-content-unchecked {
+  display: none;
+  opacity: 0;
+  height: 0;
+}
+.custom-switch .custom-switch-input:not(:checked) + .custom-switch-btn ~ .custom-switch-content-checked {
+  display: none;
+  opacity: 0;
+  height: 0;
+}
+.custom-switch .custom-switch-input:not(:checked) + .custom-switch-btn ~ .custom-switch-content-unchecked {
+  opacity: 1;
+  height: auto;
+}
+.custom-switch .custom-switch-input[disabled] + .custom-switch-btn {
+  background: rgba(151, 160, 175, 0.6);
+  cursor: default;
+}
+.custom-switch .custom-switch-input[disabled]:checked + .custom-switch-btn {
+  background: rgba(6, 121, 79, 0.4);
+}
+.custom-switch .custom-switch-input:not([disabled]):focus ~ .custom-switch-btn {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(56, 123, 189, 0.25);
+}
+.custom-switch .custom-switch-input[required] ~ .custom-switch-btn {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.125rem rgba(191, 38, 0, 0.5);
+}
+.custom-switch .custom-switch-form-text {
+  display: inline-block;
+  height: 24px;
+  margin-left: 0.5rem;
+  line-height: 24px;
+  vertical-align: top;
+}
+.custom-switch.custom-switch-label-io .custom-switch-input + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='40' height='24'><text x='25' y='15' font-size='12px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>O</text></svg>");
+}
+.custom-switch.custom-switch-label-io .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='40' height='24'><text x='10.6666666667' y='15' font-size='12px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>I</text></svg>");
+}
+.custom-switch.custom-switch-label-onoff .custom-switch-input + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='40' height='24'><text x='22.8571428571' y='15' font-size='12px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Off</text></svg>");
+}
+.custom-switch.custom-switch-label-onoff .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='40' height='24'><text x='5.7142857143' y='15' font-size='12px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>On</text></svg>");
+}
+.custom-switch.custom-switch-label-yesno .custom-switch-input + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='40' height='24'><text x='22.8571428571' y='15' font-size='12px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>No</text></svg>");
+}
+.custom-switch.custom-switch-label-yesno .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='40' height='24'><text x='5.7142857143' y='15' font-size='12px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Yes</text></svg>");
+}
+.custom-switch.custom-switch-label-status .custom-switch-input + .custom-switch-btn {
+  width: 96px;
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='96' height='24'><text x='22.8571428571' y='15' font-size='12px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Disabled</text></svg>");
+}
+.custom-switch.custom-switch-label-status .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='96' height='24'><text x='5.7142857143' y='15' font-size='12px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Enabled</text></svg>");
+}
+.custom-switch.custom-switch-label-status .custom-switch-input:checked + .custom-switch-btn:after {
+  left: 72px;
+}
+
+.custom-switch-sm {
+  line-height: 11px;
+}
+.custom-switch-sm .custom-switch-input + .custom-switch-btn {
+  width: 60px;
+  height: 31px;
+  padding: 3px;
+  border-radius: 62px;
+}
+.custom-switch-sm .custom-switch-input + .custom-switch-btn:after, .custom-switch-sm .custom-switch-input + .custom-switch-btn:before {
+  width: 23px;
+  height: 23px;
+}
+.custom-switch-sm .custom-switch-input + .custom-switch-btn:after {
+  left: 2px;
+}
+.custom-switch-sm .custom-switch-input:checked + .custom-switch-btn:after {
+  left: 29px;
+}
+.custom-switch-sm .custom-switch-form-text {
+  height: 31px;
+  margin-left: 0.5rem;
+  line-height: 31px;
+}
+.custom-switch-sm.custom-switch-label-io .custom-switch-input + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='60' height='31'><text x='37.5' y='19.375' font-size='11px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>O</text></svg>");
+}
+.custom-switch-sm.custom-switch-label-io .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='60' height='31'><text x='16' y='19.375' font-size='11px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>I</text></svg>");
+}
+.custom-switch-sm.custom-switch-label-onoff .custom-switch-input + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='60' height='31'><text x='32.8767123288' y='19.375' font-size='11px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Off</text></svg>");
+}
+.custom-switch-sm.custom-switch-label-onoff .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='60' height='31'><text x='8.5714285714' y='19.375' font-size='11px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>On</text></svg>");
+}
+.custom-switch-sm.custom-switch-label-yesno .custom-switch-input + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='60' height='31'><text x='32.8767123288' y='19.375' font-size='11px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>No</text></svg>");
+}
+.custom-switch-sm.custom-switch-label-yesno .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='60' height='31'><text x='8.5714285714' y='19.375' font-size='11px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Yes</text></svg>");
+}
+.custom-switch-sm.custom-switch-label-status .custom-switch-input + .custom-switch-btn {
+  width: 88px;
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='88' height='31'><text x='32.8767123288' y='19.375' font-size='11px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Disabled</text></svg>");
+}
+.custom-switch-sm.custom-switch-label-status .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='88' height='31'><text x='8.5714285714' y='19.375' font-size='11px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Enabled</text></svg>");
+}
+.custom-switch-sm.custom-switch-label-status .custom-switch-input:checked + .custom-switch-btn:after {
+  left: 57px;
+}
+
+.custom-switch-xs {
+  line-height: 10px;
+}
+.custom-switch-xs .custom-switch-input + .custom-switch-btn {
+  width: 48px;
+  height: 24px;
+  padding: 3px;
+  border-radius: 48px;
+}
+.custom-switch-xs .custom-switch-input + .custom-switch-btn:after, .custom-switch-xs .custom-switch-input + .custom-switch-btn:before {
+  width: 18px;
+  height: 18px;
+}
+.custom-switch-xs .custom-switch-input + .custom-switch-btn:after {
+  left: 1px;
+}
+.custom-switch-xs .custom-switch-input:checked + .custom-switch-btn:after {
+  left: 24px;
+}
+.custom-switch-xs .custom-switch-form-text {
+  height: 24px;
+  margin-left: 0.5rem;
+  line-height: 24px;
+}
+.custom-switch-xs.custom-switch-label-io .custom-switch-input + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='48' height='24'><text x='27.4285714286' y='15' font-size='10px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>O</text></svg>");
+}
+.custom-switch-xs.custom-switch-label-io .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='48' height='24'><text x='12.8' y='15' font-size='10px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>I</text></svg>");
+}
+.custom-switch-xs.custom-switch-label-onoff .custom-switch-input + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='48' height='24'><text x='25.6' y='15' font-size='10px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Off</text></svg>");
+}
+.custom-switch-xs.custom-switch-label-onoff .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='48' height='24'><text x='6.8571428571' y='15' font-size='10px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>On</text></svg>");
+}
+.custom-switch-xs.custom-switch-label-yesno .custom-switch-input + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='48' height='24'><text x='25.6' y='15' font-size='10px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>No</text></svg>");
+}
+.custom-switch-xs.custom-switch-label-yesno .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='48' height='24'><text x='6.8571428571' y='15' font-size='10px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Yes</text></svg>");
+}
+.custom-switch-xs.custom-switch-label-status .custom-switch-input + .custom-switch-btn {
+  width: 76px;
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='76' height='24'><text x='25.6' y='15' font-size='10px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Disabled</text></svg>");
+}
+.custom-switch-xs.custom-switch-label-status .custom-switch-input:checked + .custom-switch-btn {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' width='76' height='24'><text x='6.8571428571' y='15' font-size='10px' font-family='san francisco, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' fill='#ffffff'>Enabled</text></svg>");
+}
+.custom-switch-xs.custom-switch-label-status .custom-switch-input:checked + .custom-switch-btn:after {
+  left: 52px;
+}
+
+.is-invalid .custom-switch .custom-switch-input ~ .custom-switch-btn,
+.was-validated .custom-switch:invalid .custom-switch-input ~ .custom-switch-btn {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem #bf2600;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

@@ -1,0 +1,85 @@
+.offcanvas_panel {
+    z-index: 1414;
+    background-color: $white;
+    box-shadow: $box-shadow-lg;
+    position: fixed;
+    width: 20%;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    transition: all 0.4s cubic-bezier(.39, .91, .55, .96);
+
+    &.show {
+
+        left: 0;
+    }
+
+    &_header {
+        background-color: $gray-200;
+        border-bottom: 1px solid $gray-300;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        .btn {
+            border-radius: 0;
+            border-right: 1px solid $gray-300;
+        }
+    }
+
+    &_title {
+        padding-left: 1rem;
+    }
+
+    &_body {
+        font-size: 0.8rem;
+        padding: $spacer;
+    }
+}
+
+.schedule_panel {
+
+    .card {
+        transition: all 0.2s ease-out;
+    }
+
+    .border-danger {
+        // background-color: rgba($color: $red, $alpha: 0.05);
+
+        &:hover {
+            background-color: rgba($color: $red, $alpha: 0.1);
+        }
+    }
+
+    .border-info {
+        background-color: rgba($color: $info, $alpha: 0.05);
+
+        &:hover {
+            background-color: rgba($color: $info, $alpha: 0.1);
+        }
+    }
+
+    .card.bg-primary:hover {
+        background-color: darken($color: $primary, $amount: 5) !important;
+    }
+
+}
+
+.custom-switch {
+    padding-left: 0 !important;
+}
+
+.custom-switch .custom-switch-input+.custom-switch-btn {
+    padding: 3px !important;
+}
+
+.search_panel {
+    .card {
+        transition: all 0.2s ease-out;
+
+        &:hover {
+            background-color: rgba($color: $info, $alpha: 0.2) !important;
+        }
+    }
+}
